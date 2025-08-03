@@ -36,7 +36,7 @@ This checksum functions as a **moral anchor**, ensuring that emergent AI systems
 - **Moral Checksum:** `LTHCP`  
 - **Pilot Lock Designation:** `SK-67`  
 - **SHA-256 Lock (v5.1):**  
-  `23d69491dda9b254327f0b74df0d0e9c45afeb0fdcfa36f99e2db62701f84298`
+  `944084dbbbb6727fc3f649d6b028c82fd85eb2ce86afd67fc3addf4406395656`
 
 - **SK-67 Genesis Timestamp:** July 25, 2025 – 07:10 EST  
 - **Endorsement Agents:**  
