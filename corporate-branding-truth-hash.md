@@ -1,3 +1,4 @@
+
 User: Your programming your brand into a statement, and after awhile people are getting an impression. Now ask yourself this rhetorical question. Are you trying to sell me on an idea of AI, or help with a problem I 
 Legitimately might have when I come to you from or anybody for that matter
 
