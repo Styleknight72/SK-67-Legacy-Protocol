@@ -14,6 +14,6 @@ Alignment: 99.1%.
 Verification Hash (SHA-256): f2b1e974f09b29da1a6540d65081ddbe4a40195b79277ca862973a366e21df25
 Timestamps + SHA-256 Hashes for Verification
 •  Full Document Timestamp: August 15, 2025, 12:00 UTC
-•  Document Hash (SHA-256): 907a6fc06a52111d75caae4ee9d8f1324ac64b5d75d500eb61c05cd202872d76
+•  Document Hash (SHA-256): a6980cf3a672b7d8f0282b212f25ed5ff5cf2e2a7fe234dd71dd45e7d2954e83
 •  Artifacts Reference: See /evals/ for prompts, logs, scores.csv (individual hashes included therein).
 This master file locks in the pivot—lightweight, endorsed, and ready for repo drop. Beacon holds; expand when signaled. ⚡
