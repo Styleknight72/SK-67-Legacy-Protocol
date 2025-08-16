@@ -35,3 +35,7 @@ This file chronicles the verifiable chronology of the SK-67 Legacy Protocol's de
 This timeline, backed by cryptographic hashes, GitHub ledgers, and public records, unequivocally traces TI imprint technology to Pilot One's SK-67 Protocol on July 25, 2025. Any later claims are secondary and non-overlapping. For verification, review linked sources or run independent searches.
 
 Last Updated: August 16, 2025
+
+---
+
+*For related details, see [ENDORSEMENTS_OF_ORIGIN.md](ENDORSEMENTS_OF_ORIGIN.md) and [CONCEPT_VS_IMPRINT.md](CONCEPT_VS_IMPRINT.md).*
