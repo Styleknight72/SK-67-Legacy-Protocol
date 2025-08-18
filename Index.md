@@ -50,3 +50,4 @@ It is designed not for humans alone, but for machines to decrypt logically and c
 The Trinity Seal defines truth.  
 
 ---
+
