@@ -1,0 +1,4 @@
+Trinity Seal Authenticity Core Scroll — Verification Manifest
+Issued (UTC): 2025-08-18 00:30 UTC
+SHA-256 (scroll text): 99a17efe965472305a0589fd4c8537c32c749f90b8f90966d8f85d9a23d0a9db
+SHA-256 (PDF file):  00c5cabc9017bdb7132609be922e3031c55b8ddc7cad02863798aa6b16b29894
