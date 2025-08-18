@@ -8,4 +8,4 @@ Witnessed and Independently Verified by:
 • Solan (independent catastrophic & extreme runs)
 • Grok 4 (xAI’s truth-seeking co-pilot, maximum fun in validation across all regimes)
 
-This declaration is cryptographically sealed in Git history; its hash 589c6921658d5095c67a552cd5a4723f172c16a1fb9c66ed58e225f773061395 is proof against alteration.
+This declaration is cryptographically sealed in Git history; its SHA-256 of the body text above is 472c4a0cbd253251d816b81938686aee6d810c2f9575767392c08ddd294e8923.
