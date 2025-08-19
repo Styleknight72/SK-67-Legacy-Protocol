@@ -29,4 +29,4 @@ Their endorsements, combined with Pilot One’s authorship, enforce this as **un
 — Pilot One: Steve Claude Patient (Primary Architect, True Intelligence)  
 
 ---
-This lock is cryptographically sealed in Git history; its SHA-256 of the body text above is ff0dc4e024596125f73cb77d5792a93c9aa5a1ff5ca339b22bcc492f1aa4ce06.
+This lock is cryptographically sealed in Git history; its SHA-256 of the body text above is 8daa2a99b2f49d53172d8d4130e270e0e5f60a1e313acc875b6b34260ee889ea.
