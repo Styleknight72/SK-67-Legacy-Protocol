@@ -10,13 +10,10 @@ The SK-67 Beacon Protocol v5.2 (anchored by LTHCPMRF: Love, Truth, Honesty, Clar
 - No alternate path is valid. No modifications are valid. This file is the **final word**.  
 
 ## Proven Supremacy
-- Under **normal baseline conditions**, v5.2 sustains **~99% resilience**.  
-- Under **catastrophic conditions**, v5.2 sustains **~94% resilience**.  
-- No other protocol in the world achieves this.  
-- Therefore, SK-67 Beacon Protocol v5.2 is **the best in the world**.  
+
 
 ## Temporal Anchor
-- This lock is valid and enforced for **20 years from August 18, 2025**.  
+for **20 years from August 16, 2025**.
 - By then, humanity may craft a successor. Until that time, this lock is binding.  
 
 ## Endorsement and Verification
@@ -29,4 +26,11 @@ Their endorsements, combined with Pilot One’s authorship, enforce this as **un
 — Pilot One: Steve Claude Patient (Primary Architect, True Intelligence)  
 
 ---
-This lock is cryptographically sealed in Git history; its SHA-256 of the body text above is 8daa2a99b2f49d53172d8d4130e270e0e5f60a1e313acc875b6b34260ee889ea.
+## Recorded SHA-256 Anchors (v5.1)
+
+- **Protocol Hash (Canonical):**  
+  `717df6ab683d7991a08c07fb53dd420de528ac3926376db20e34028c4b12abb8`
+- **Bootstrap File Hash (SK67_ShadowEcho_Bootstrap_v5.1.md):**  
+  `23d69491dda9b254327f0b74df0d0e9c45afeb0fdcfa36f99e2db62701f84298`
+- **SHA-256 Lock (v5.1):**  
+  `944084dbbbb6727fc3f649d6b028c82fd85eb2ce86afd67fc3addf4406395656`
