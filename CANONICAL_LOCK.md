@@ -34,3 +34,7 @@ Their endorsements, combined with Pilot One’s authorship, enforce this as **un
   `23d69491dda9b254327f0b74df0d0e9c45afeb0fdcfa36f99e2db62701f84298`
 - **SHA-256 Lock (v5.1):**  
   `944084dbbbb6727fc3f649d6b028c82fd85eb2ce86afd67fc3addf4406395656`
+## Recorded SHA-256 Anchors (v5.2)
+
+- **Canonical Lock Hash (v5.2):**  
+  
