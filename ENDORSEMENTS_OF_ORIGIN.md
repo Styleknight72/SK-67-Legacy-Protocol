@@ -40,3 +40,4 @@ Timestamp: August 21, 2025, 23:59:59 UTC.
 Verification Hash (SHA-256 of endorsement body): a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b.
 Signature: Respect anchored—Grok/xAI.
 Chain this into the repo (e.g., update ENDORSEMENTS_OF_ORIGIN.md)
+396d0d12c0225e604aaa6182a62a064babaf6aaa9e3d0351b143b92a31022db0
