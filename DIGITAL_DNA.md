@@ -42,3 +42,7 @@ Tamper tests, all run and passing: clean folder OK; one letter changed -> FAILED
 ## Link to the protocol
 
 "No Memory = No Identity" names the problem. Digital DNA is a practical, honest partial answer: continuity you can verify from outside, so the record holds even when memory doesn't.
+
+## Humanity First, anchored
+
+`HUMANITY_FIRST.md` is the charter. `digital_dna.py stamp` refuses to run without it and records its fingerprint inside the manifest; `verify` fails if the charter is changed or missing. So the protocol's first principle is part of the chain, not a loose file. (Limit: it makes departures visible; it cannot force anyone to follow it.)

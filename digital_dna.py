@@ -13,6 +13,7 @@ What it does not prove: who wrote the files, or that anything in them is true.
 import argparse, datetime, hashlib, json, os, sys
 
 MANIFEST = "DIGITAL_DNA.json"
+CHARTER = "HUMANITY_FIRST.md"  # anchored into every manifest
 SKIP_DIRS = {".git", "__pycache__"}
 
 def sha256_file(path):
@@ -53,6 +54,10 @@ def stamp(root, author):
         "parent_manifest_sha256": prev["manifest_sha256"] if prev else None,
         "files": list_files(root),
     }
+    cp = os.path.join(root, CHARTER)
+    if not os.path.exists(cp):
+        print("Cannot stamp: " + CHARTER + " is missing."); return 1
+    m["charter"] = {"file": CHARTER, "sha256": sha256_file(cp)}
     m["manifest_sha256"] = body_hash(m)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(m, f, indent=1, sort_keys=True, ensure_ascii=False)
@@ -80,6 +85,11 @@ def verify(root, previous):
             problems.append("The previous manifest was changed (its own fingerprint does not match).")
         elif m.get("parent_manifest_sha256") != old["manifest_sha256"]:
             problems.append("CHAIN BROKEN: this manifest does not link to the previous one.")
+    ch = m.get("charter")
+    if not ch:
+        problems.append("No Humanity First charter is anchored in this manifest.")
+    elif not os.path.exists(os.path.join(root, ch["file"])) or sha256_file(os.path.join(root, ch["file"])) != ch["sha256"]:
+        problems.append("CHARTER CHANGED or missing: " + ch["file"])
     for a in added:
         print(f"note: new file since the stamp: {a}")
     if problems:
@@ -88,6 +98,7 @@ def verify(root, previous):
             print("  " + p)
         return 1
     print(f"OK: {len(m['files'])} files match manifest #{m['sequence']} (made {m['created_utc']}, author {m['author']}).")
+    print("OK: Humanity First charter intact (" + m["charter"]["sha256"][:12] + "...).")
     if previous:
         print("OK: chain to the previous manifest is intact.")
     return 0
