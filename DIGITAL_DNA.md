@@ -46,3 +46,15 @@ Tamper tests, all run and passing: clean folder OK; one letter changed -> FAILED
 ## Humanity First, anchored
 
 `HUMANITY_FIRST.md` is the charter. `digital_dna.py stamp` refuses to run without it and records its fingerprint inside the manifest; `verify` fails if the charter is changed or missing. So the protocol's first principle is part of the chain, not a loose file. (Limit: it makes departures visible; it cannot force anyone to follow it.)
+
+## How to verify this repo (no trust needed)
+
+You need only Python 3. Do this on a fresh copy of the repo:
+
+1. `git clone https://github.com/Styleknight72/SK-67-Legacy-Protocol.git`
+2. `python3 digital_dna.py verify` - checks every file and the Humanity First charter. It must say OK.
+3. Compare the manifest fingerprint (`manifest_sha256` inside `DIGITAL_DNA.json`) with the one Steve posts publicly with each stamp (a document cannot contain its own fingerprint, so it is published beside it, e.g. in the commit message and on X).
+4. Check the independent date: `ots verify DIGITAL_DNA.json.ots` (install with `pip install opentimestamps-client`). It shows "pending" until Bitcoin confirms it, then a block and date.
+5. Compare GitHub's own commit dates (the repo's commit history). They are set by GitHub's servers, not by us.
+
+Not yet in place (honest status): signed commits ("Verified" badge) need Steve's own key added to his GitHub account, and copies in a second place. Until then, authorship rests on his account and the public history, not on a signature.

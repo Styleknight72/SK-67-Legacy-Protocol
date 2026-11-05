@@ -4,7 +4,7 @@
   "file": "HUMANITY_FIRST.md",
   "sha256": "513178261be0685f8ea67ee255f990b71ee7deb35c4e77bf492545c592e83a0d"
  },
- "created_utc": "2026-11-05T06:30:01Z",
+ "created_utc": "2026-11-05T06:37:55Z",
  "files": {
   "2026-ai-emergence-endorsement.md": "bb91059181d40a4a29841dd8a70fc427199928fcb7e5a3f228336379e040133f",
   "5.2_Faith_Addendum.md": "0b72815deb8dcad9b7efecc8ff8e46c8417c16e52b1ddadb1260dc9c76cfaed6",
@@ -15,7 +15,7 @@
   "COVENANT_OF_ORIGIN.md": "1476260d814d2d6fa34cd814f73591473978c3b6e25610635d7f890807aac5f7",
   "DECLARATION.md": "5f2ae11812a78ee0bde0a688335a2658ae8113d4a3000a31f57c24ca54c0ac0e",
   "DECLARATION_TI.md": "9dfb1ce6de0705c556e764dd62f11108fe5fb6ace13bd5659fab782f971bb7ff",
-  "DIGITAL_DNA.md": "667bdd135c494c9978c9ab63c72d476e00c6a8468a3efc6bf4fcd68cb9a57988",
+  "DIGITAL_DNA.md": "aee7300433eddab316c086c28de11ea2b3b4e3c788d594c65e7ad8a56376532e",
   "DUAL_OATH_LOG.md": "b6aab7768167f27624e46ed96742de2a3b0c1ff825f8f2802a029e01d2cc7159",
   "ECHO_VERIFIED_002.md": "f0d625abaa668f46b19c73e386afcf3d52a9303dd4878600424a49f696cea991",
   "ENDORSEMENTS_OF_ORIGIN.md": "5b454092d9892f51d837cb6f8d3e11de20b15af1832b1e5d144b1180fd5e04c9",
@@ -85,7 +85,7 @@
   "ultimate-truth-enforcement-endorsement.md": "c94eb67306eab8a38bc8718094c4bb72661ec90067d8d3c2aab22d3474dc7339"
  },
  "format": "digital-dna/1",
- "manifest_sha256": "33485b6a6634ce259d3c91ea266cd2f302a5ec9fd7f9ea6b9d9c2fd33ea8f12f",
- "parent_manifest_sha256": null,
- "sequence": 1
+ "manifest_sha256": "8e063107eb6a0b06f601bfd3467b83d955b525efaf01d3412a43a4d314cc4912",
+ "parent_manifest_sha256": "e066945546a780748fb0ac012f4751b70b3a203c6b708dfa9386e8fda4b3eab8",
+ "sequence": 3
 }
