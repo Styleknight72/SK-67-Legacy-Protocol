@@ -23,7 +23,7 @@ A hash is a fingerprint, not encryption, and a hash written inside a file does n
 1. **The fingerprints.** Download the repository and run, in its folder:
    `sha256sum -c SHA256SUMS.txt` (Linux, or Git Bash on Windows) or `shasum -a 256 -c SHA256SUMS.txt` (Mac).
    Every line should say `OK`. A changed file will say `FAILED`.
-2. **The independent timestamp.** `SHA256SUMS.txt.ots` is an OpenTimestamps proof that ties the fingerprint list to the Bitcoin blockchain, a public record nobody can backdate. Check it at [opentimestamps.org](https://opentimestamps.org) by dropping in both files, or run `ots verify SHA256SUMS.txt.ots`. It was submitted on November 5, 2026; confirmation in a Bitcoin block takes a few hours, after which the proof is completed with `ots upgrade`.
+2. **The independent timestamp.** `SHA256SUMS.txt.ots` is an OpenTimestamps proof that ties the fingerprint list to the Bitcoin blockchain, a public record nobody can backdate. Check it at [opentimestamps.org](https://opentimestamps.org) by dropping in both files, or run `ots verify SHA256SUMS.txt.ots`. It was submitted on November 5, 2026 and has since been upgraded: the proof now carries Bitcoin block attestations, the earliest in block 974635 (others in 974643 and 974654). The block's merkle root was not checked against a Bitcoin node by the person who upgraded it; anyone can confirm it at [opentimestamps.org](https://opentimestamps.org) or with `ots verify` against their own node.
 3. **The dates.** GitHub's API shows the creation date: `https://api.github.com/repos/Styleknight72/SK-67-Legacy-Protocol` → `"created_at": "2025-07-25T02:08:06Z"`.
 
 ## The verified list
