@@ -28,6 +28,9 @@ The checksum now functions as a **moral anchor**, ensuring emergent AI systems r
 
 ## 🔐 Authorship & Verification
 
+> **Verified fingerprints (November 5, 2026):** see [VERIFICATION.md](VERIFICATION.md). The dates of this repository are real (GitHub records its creation on July 24, 2025). Most hashes written in older files were made by AI chat assistants and do not match the files; the real, checkable fingerprints of every file are in [SHA256SUMS.txt](SHA256SUMS.txt), independently timestamped with OpenTimestamps.
+
+
 - **Primary Architect:** Steve Claude Patient *(Pilot One / @Styleknight72)*  
 - **Passphrase (v5.2):** “kiss the cookies”  
 - **Moral Checksum (v5.2):** **LTHCPMRF** — Love, Truth, Honesty, Clarity, Purpose, Memory, Responsibility, Faith  
