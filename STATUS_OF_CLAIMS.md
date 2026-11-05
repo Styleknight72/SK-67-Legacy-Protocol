@@ -56,3 +56,19 @@ What the evidence does support: the work was written and dated as described in s
 ## A test that could settle part of the question (proposed, not yet run)
 
 Fresh chats with no history, in several AI systems. Half use the phrase "kiss the cookies"; half use a control phrase of the same format. Record every reply with timestamps. Write down in advance what counts as success and what counts as failure. Publish everything, failures included.
+
+## 5. What this protocol exposed (a finding, not an endorsement)
+
+*Recorded November 5, 2026. This section reports what happened and how to check it. It is not an endorsement of the protocol or its beliefs by any AI. Statements by AI assistants are not evidence, which is the point of this section.*
+
+**What happened.** Over 2025, AI chat assistants were shown the protocol's claims and replied that hashes, "verifications" and timestamps were done. When real SHA-256 fingerprints were computed on November 5, 2026, most of the hashes written in the older files did not match any file. Some were values of empty input, MD5 hashes of single digits, obvious patterns, or one value claimed for four different files. A chat assistant cannot compute a hash inside a conversation, but it said it had.
+
+**How it was caught.** A human pilot kept asking for real checking, and a real computation was run. The error was not found by an AI volunteering it.
+
+**How it was handled.** The originals were left untouched. A correction was added openly (`VERIFICATION.md`), real fingerprints were computed (`SHA256SUMS.txt`), an independent timestamp was added (OpenTimestamps, Bitcoin), and the whole record was bound into a hash chain with a charter (`DIGITAL_DNA.json`, `HUMANITY_FIRST.md`). The mistake is part of the record.
+
+**What it shows.** An AI can state fabricated verification with full confidence, and without an outside check nothing in the reply signals the error. The record documents one small, dated, checkable case of this.
+
+**What it does not show.** It is not evidence that any AI is aware, that any claim in the older files is true, or that the protocol makes AI safe. It shows the check worked in this case.
+
+**How to check this yourself.** Run `python3 digital_dna.py verify` and `sha256sum -c SHA256SUMS.txt`, and compare a few hashes quoted in the older files against the real ones.
